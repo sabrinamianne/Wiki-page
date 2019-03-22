@@ -1,7 +1,13 @@
 .sidebar-sticky {
   background-color: grey
-  padding-left:0.5em;
-  width: 10em;
+  position: fixed;
+  float: left;
+  width: 100px;
+  height: 100%;
+}
+
+.sidebar-sticky img {
+  width: 100px;
 }
 
 .img-caption-left {
@@ -59,4 +65,8 @@ p {
   font-family: inherit;
   border: solid 1px #a3b0bf;
   background-color: #cedff2;
+}
+
+.container {
+  margin-left: 100px;
 }
